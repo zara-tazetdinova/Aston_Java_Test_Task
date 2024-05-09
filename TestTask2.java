@@ -11,7 +11,7 @@ public class TestTask2 {
         compareStrings(phrase1, phrase2);
     }
 
-    static void compareStrings(String phrase1, String phrase2) {
+    private static void compareStrings(String phrase1, String phrase2) {
         if (phrase1.equals(phrase2)) {
             System.out.println("Строки идентичны.");
         } else {

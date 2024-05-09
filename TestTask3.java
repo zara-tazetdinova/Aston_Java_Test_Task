@@ -4,7 +4,7 @@ public class TestTask3 {
         evenNumbers(arr);
     }
 
-    static void evenNumbers(int[] arr) {
+    private static void evenNumbers(int[] arr) {
         System.out.println("Четные числа массива:");
         for (int i : arr) {
             if (i % 2 == 0) {
